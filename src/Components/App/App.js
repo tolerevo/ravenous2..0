@@ -1,11 +1,13 @@
 import React /*{ useState }*/ from 'react';
-import './App.css';
-import Business from '../Business/Business';
+import styles from './App.module.css';
+import BusinessList from '../BusinessList/BusinessList';
+
 
 function App() {
   return (
-    <div className="App">
-      <Business />
+    <div className={styles.App}>
+      <h1>Ravenous</h1>
+      <BusinessList />
     </div>
   );
 }
