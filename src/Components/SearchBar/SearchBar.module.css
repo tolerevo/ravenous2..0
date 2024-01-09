@@ -17,8 +17,9 @@
 
 .SearchBarSortOptions li {
   cursor: pointer;
+  font-family: "Roboto", monospace;
   width: 4.33rem;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #8b33c3;
   padding: 0 2.58rem 0.33rem 2.58rem;
   line-height: 1.13;
   text-align: center;
@@ -29,7 +30,7 @@
 }
 
 .SearchBarSortOptions li:hover {
-  color: #d4cfcf;
+  color: #3aadc9;
 }
 
 .SearchBarSortOptions li.active,
@@ -63,7 +64,7 @@
 }
 
 .SearchBarSubmit a {
-  border-radius: 4px;
+  border-radius: 16px;
   padding: 0.72rem 1.7rem;
   background-color: #7646bd;
   color: #ffffff;
@@ -73,7 +74,7 @@
 
 .SearchBarSubmit a:hover {
   cursor: pointer;
-  background-color: #a7874b;
+  background-color: #954389;
 }
 
 @media only screen and (max-width: 560px) {
