@@ -1,3 +1,4 @@
+[![CodeQL](https://github.com/tolerevo/ravenous2..0/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/tolerevo/ravenous2..0/actions/workflows/github-code-scanning/codeql)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
