@@ -1,9 +1,11 @@
+import React /*{ useState }*/ from 'react';
 import './App.css';
+import Business from '../Business/Business';
 
 function App() {
   return (
     <div className="App">
-      Hello React!
+      <Business />
     </div>
   );
 }
