@@ -17,14 +17,18 @@ const business = {
 
 const businesses = [business, business, business, business, business, business];
 
-function App() {
-  return (
-    <div className={styles.App}>
-      <h1>Ravenous</h1>
-      <SearchBar />
-      <BusinessList businesses={businesses}/>
-    </div>
-  );
+const App = () => {
+	const searchYelp = (term, location, sortBy) => {
+		console.log(`Searching Yelp with ${term}, ${location}, ${sortBy}`);
+	};
+
+	return (
+		<div className={styles.App}>
+			<h1>Ravenous</h1>
+			<SearchBar searchYelp={searchYelp} />
+			<BusinessList businesses={businesses} />
+		</div>
+	);
 }
 
 export default App;

@@ -31,7 +31,8 @@ input:focus {
   text-align: center;
   background-color: #8622b0;
   font-family: 'Poppins', sans-serif;;
-  font-size: 1.8rem;
+  font-size: 2rem;
+  font-weight: 550;
   color: #fff;
   margin: 0;
 }
