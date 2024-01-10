@@ -46,12 +46,13 @@
 }
 
 .SearchBarFields input {
+  font-family: "Roboto", monospace;
   width: 21rem;
   padding: 0.66rem 1rem;
   margin-right: 2.22rem;
-  border: 1px solid #fff;
-  border-radius: 4px;
-  font-size: 0.77rem;
+  border: 2px solid #fff;
+  border-radius: 7px;
+  font-size: 0.9rem;
   font-weight: 500;
 }
 
